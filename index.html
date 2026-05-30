@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+   
+    <div class="all">
+         <h1>to do list</h1>
+    <div id="DIV" class="hlavicka">
+        
+        <input onclick="playPop()" type="text" id="INPUT" placeholder="type here...">
+        <span onclick="newElement()" class="pridat">add</span>
+    </div>
+    <ul id="UL">
+        <li class="list">do something</li>
+    </ul>
+    <div class="sounds">
+        <div class="sound" data-sound="song1.mp3">♪</div>
+        <div class="sound" data-sound="song2.mp3">♫</div>
+        <div class="sound" data-sound="song3.mp3">♬</div>
+        <div class="sound">⦸</div>
+    </div>
+
+    <div class="modes">
+        <div onclick="dark()" class="btn">dark mode</div>
+        <div onclick="light()" class="btn">light mode</div>
+    </div>
+<div onclick="document.getElementById('date').innerHTML = Date()" class="cont"><div class="date" id="date">
+date and time?
+</div></div>
+
+
+<!--date time, dark mode, drgaable, confetti, todolist-->
+<div id="mydiv">
+  <div id="mydivheader"><strong>≽^•⩊•^≼</strong></div>
+<a href="https://www.glitter-graphics.com"><img src="http://dl9.glitter-graphics.net/pub/1590/1590589j1fp3y5h1s.gif" width=280 height=223 border=0></a><br><a href="https://www.glitter-graphics.com" target=_blank></a>
+</div>
+<div id="mydiv">
+
+    <script src="script.js"></script>
+</body>
+</html>
