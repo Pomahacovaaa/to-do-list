@@ -2,7 +2,7 @@
 <img width="1919" height="938" alt="Snímek obrazovky 2026-05-30 161526" src="https://github.com/user-attachments/assets/2d10b37e-b749-4bf9-94d5-b928e808aa5c" />
 
 ## how was it made?
-* html/jss/css
+* html/js/css
 * mixkit (sound effects, background music)
 * some parts of W3Schools tutorials
 
